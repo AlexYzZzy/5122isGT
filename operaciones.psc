@@ -32,6 +32,23 @@
 				
 			2: 
 				escribir "piramide";
+				Definir f, i, n como entero;
+				Definir c Como Caracter;
+				Escribir Sin Saltar "ingrese numero de niveles:";
+				leer n;
+				Escribir Sin Saltar "ingrese caracter:";
+				leer c;
+				
+				Para f<-1 Hasta n Con Paso 1 Hacer
+					Para i<-1 Hasta n-f+1 Con Paso 1 Hacer
+						Escribir Sin Saltar " ";
+					Fin Para
+					
+					Para i<-1 Hasta f Con Paso 1 Hacer
+						Escribir Sin Saltar " ",c;
+					Fin Para
+					escribir "";
+				Fin Para
 				
 			3: 
 				Definir operacione como entero;
